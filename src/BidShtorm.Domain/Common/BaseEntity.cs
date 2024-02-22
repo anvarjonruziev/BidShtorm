@@ -3,6 +3,6 @@
     public abstract class BaseEntity
     {
         public Guid Id { get; set; }
-        public DateTime CreatedDate { get; } = DateTime.Now;
+        public DateTime RecordDate { get; } = DateTime.Now;
     }
 }
