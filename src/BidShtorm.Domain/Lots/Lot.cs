@@ -5,6 +5,7 @@ namespace BidShtorm.Domain.Lots
 {
     public class Lot : BaseEntity
     {
+        public string Description { get; set; }
         public int LaneOrder { get; set; }
         public DateTime PrebidStartDate { get; set; }
         public DateTime PrebidEndDate { get; set; }
