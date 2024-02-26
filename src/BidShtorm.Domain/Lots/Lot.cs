@@ -1,10 +1,12 @@
-﻿using BidShtorm.Domain.Locations;
+﻿using BidShtorm.Domain.Common;
+using BidShtorm.Domain.Locations;
 using BidShtorm.Domain.Sellers;
 
 namespace BidShtorm.Domain.Lots
 {
     public class Lot : BaseEntity
     {
+        public decimal BuyItNowPrice { get; set; }
         public string Description { get; set; }
         public int LaneOrder { get; set; }
         public DateTime PrebidStartDate { get; set; }
@@ -22,5 +24,9 @@ namespace BidShtorm.Domain.Lots
         public Bid LastBid { get; set; }
         public Guid? WinnId { get; set; }
         public Winn Winn { get; set; }
+        public Guid? CategoryId { get; set; }
+        public Category Category { get; set; }
+        public ICollection<LotImage> Images { get; set; }
+        public ICollection<Bid> Bids { get; set; }
     }
 }

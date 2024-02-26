@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BidShtorm.Domain\BidShtorm.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
