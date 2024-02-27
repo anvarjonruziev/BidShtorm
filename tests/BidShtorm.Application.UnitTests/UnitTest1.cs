@@ -7,10 +7,5 @@ namespace BidShtorm.Application.UnitTests
         {
             Assert.True(true);
         }
-        [Fact]
-        public void ShouldBeFail()
-        {
-            Assert.Fail("");
-        }
     }
 }
