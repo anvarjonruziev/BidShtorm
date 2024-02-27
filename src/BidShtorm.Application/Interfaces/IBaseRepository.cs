@@ -6,6 +6,6 @@ namespace BidShtorm.Application.Interfaces
     {
         Task<TEntity> GetByIdAsync(Guid id);
         Task AddAsync(TEntity entity);
-        Update(TEntity entity);
+        void Update(TEntity entity);
     }
 }
