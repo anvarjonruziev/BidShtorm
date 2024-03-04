@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BidShtorm.Application\BidShtorm.Application.csproj" />
+    <ProjectReference Include="..\..\Application\BidShtorm.Application\BidShtorm.Application.csproj" />
     <ProjectReference Include="..\BidShtorm.Contracts\BidShtorm.Contracts.csproj" />
-    <ProjectReference Include="..\BidShtorm.Infrastructure\BidShtorm.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\BidShtorm.Infrastructure\BidShtorm.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BidShtorm.Application\BidShtorm.Application.csproj" />
+    <ProjectReference Include="..\..\src\Application\BidShtorm.Application\BidShtorm.Application.csproj" />
   </ItemGroup>
 
 </Project>

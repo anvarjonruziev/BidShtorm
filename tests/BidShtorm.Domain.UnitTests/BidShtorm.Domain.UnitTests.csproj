@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BidShtorm.Domain\BidShtorm.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Domain\BidShtorm.Domain\BidShtorm.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

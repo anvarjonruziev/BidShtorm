@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BidShtorm.Application\BidShtorm.Application.csproj" />
+    <ProjectReference Include="..\..\Application\BidShtorm.Application\BidShtorm.Application.csproj" />
   </ItemGroup>
 
 </Project>
